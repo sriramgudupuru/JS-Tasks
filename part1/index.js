@@ -25,7 +25,7 @@ window.onclick = function(event) {
 
 const backgroundColor =  () => {
     const randColor = Math.floor(Math.random() * 2 ** 24).toString(16).padStart(6, '0');
-    document.body.style.backgroundColor = "#" + randColor;
+    document.body.style.background = "#" + randColor;
     color.innerHTML = "#" + randColor;
 };
 
